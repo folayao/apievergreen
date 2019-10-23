@@ -13,5 +13,3 @@ def getAll():
 def postOne():
     body  = request.json
     return (tipoSensor.create(body))
-
-app.run()

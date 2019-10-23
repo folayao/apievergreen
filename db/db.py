@@ -1,8 +1,8 @@
 import mysql.connector as mysql
 conex = mysql.MySQLConnection(
-    host = "127.0.0.1",
+    host = "db-server-evergreenfolayao.mysql.database.azure.com",
     port = 3306,
     user = "folayao",
-    password = "123",
+    password = "xilMQK29",
     database = "evergreen"
 )
